@@ -17,7 +17,7 @@ In this assignment, i'm documenting three prior submissions from the second year
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+gh repo clone MandeepKS/Noroff-Portfolio-2
 ```
 
 2. Install the dependencies:
