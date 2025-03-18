@@ -32,3 +32,8 @@ To run the app, run the following commands:
 ```bash
 npm run start
 ```
+## Contributing
+To contribute, fork the repository and create a pull request against this repository.
+
+## Contact
+[LinkedIn] (https://www.linkedin.com/in/mandeep-salhan-194422357/)
