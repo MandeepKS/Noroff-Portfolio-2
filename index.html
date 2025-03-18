@@ -9,79 +9,99 @@
    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
 <!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">Portfolio - 2</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="sidebarToggle">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/about.html">About Me</a>
-                </li>
-            </ul>
-        </div>
     </div>
 </nav>
+<!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+    <img src="https://avatars.githubusercontent.com/u/129056226?s=400&u=65324811c235f3df409f85f79177f3479710d3af&v=4" alt="Profile Image">
+    <h2>Mandeep K S</h2>
+    <p>Oslo, Norway</p>
+    <div class="contact-info">
+        <p>Email: mandeepkumarsalhan@gmail.com</p>
+        <p>Phone: +47 455 82 243</p>
+    </div>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/mandeep-salhan-194422357/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/MandeepKS" target="_blank">GitHub</a>
+    </div>
+</div>
+    <div class="container">
+        <div class="row">
+            <!-- Main Content -->
+            <main class="col col-lg-9">
+            <h1 class="mt-5 mb-5">Portfolio - 2</h1>
+            <!-- Projects Section -->
+            <div class="row row-cols-1 row-cols-lg-2 g-5">
+                <!-- Semester Project 2 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/images/resit_placeholder.png" class="card-img-top" alt="Semester Project 2 Screenshot">
+                        <div class="card-body">
+                            <h5 class="card-title">Semester Project 2 (Resit)</h5>
+                            <p class="card-text">This is a placeholder until the project is completed.</p>
+                            <a href="/" class="btn btn-danger">Go to Home</a>
+                            <a href="https://github.com/MandeepKS/Auction" class="btn btn-secondary ms-2" target="_blank">View Repo</a>
+                        </div>
+                    </div>
+                </div>
 
-    <div class="container py-5">
-        <h1 class="text-center mb-5">Portfolio - 2</h1>
+                <!-- JavaScript Frameworks CA -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/images/javascript2ca.png" class="card-img-top" alt="JavaScript Frameworks CA Screenshot">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript Frameworks CA</h5>
+                            <p class="card-text">SocialSphere is a text-only social media where people can make posts. The social media contains sites such as:
+                            . LOG IN
+                            . PROFILE
+                            . FEED
+                        </p>
+                            <a href="https://github.com/MandeepKS/javascript2" class="btn btn-danger" target="_blank">GitHub Repo</a>
+                            <a href="https://javascript2mks.netlify.app/" class="btn btn-secondary ms-2" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Projects Section -->
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <!-- Semester Project 2 -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="/images/resit_placeholder.png" class="card-img-top" alt="Semester Project 2 Screenshot">
-                    <div class="card-body">
-                        <h5 class="card-title">Semester Project 2 (Resit)</h5>
-                        <p class="card-text">This is a placeholder until the project is completed.</p>
-                        <a href="/" class="btn btn-danger">Go to Home</a>
-                        <a href="https://github.com/MandeepKS/MandeepKS" class="btn btn-secondary ms-2" target="_blank">View Repository</a>
+                <!-- Project Exam 2 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/images/holidaze.png" class="card-img-top" alt="Project Exam 2 Screenshot">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Exam 2</h5>
+                            <p class="card-text">Holidaze is an e-commerce platform where users can browse, book, and manage holiday venues. Venue managers can also create and manage their listings.</p>
+                            <a href="https://github.com/MandeepKS/Holidaze" class="btn btn-danger" target="_blank">GitHub Repo</a>
+                            <a href="https://holidazemks.netlify.app/" class="btn btn-secondary ms-2" target="_blank">Live Demo</a>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <!-- JavaScript Frameworks CA -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="/images/javascript2ca.png" class="card-img-top" alt="JavaScript Frameworks CA Screenshot">
-                    <div class="card-body">
-                        <h5 class="card-title">JavaScript Frameworks CA</h5>
-                        <p class="card-text">SocialSphere is a text-only social media where people can make posts. The social media contains sites such as:
-                         . LOG IN
-                        . PROFILE
-                        . FEED
-                    </p>
-                        <a href="https://github.com/MandeepKS/javascript2/tree/js2" class="btn btn-danger" target="_blank">GitHub Repo</a>
-                        <a href="https://javascript2mks.netlify.app/" class="btn btn-secondary ms-2" target="_blank">Live Demo</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project Exam 2 -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="/images/holidaze.png" class="card-img-top" alt="Project Exam 2 Screenshot">
-                    <div class="card-body">
-                        <h5 class="card-title">Project Exam 2</h5>
-                        <p class="card-text">Holidaze is an e-commerce platform where users can browse, book, and manage holiday venues. Venue managers can also create and manage their listings.</p>
-                        <a href="https://github.com/MandeepKS/Holidaze" class="btn btn-danger" target="_blank">GitHub Repo</a>
-                        <a href="https://holidazemks.netlify.app/" class="btn btn-secondary ms-2" target="_blank">Live Demo</a>
-                    </div>
-                </div>
-            </div>
+            <!-- Fun Facts & Hobbies Section -->
+            <section id="fun-facts" class="mt-5">
+                <h2 class="text-center mb-4">Fun Facts & Hobbies</h2>
+                <ul class="list-unstyled">
+                    <li>☕ Coffee lover</li>
+                    <li>🌲 Enjoys hiking & nature walks</li>
+                    <li>🇳🇴 Learning Norwegian</li>
+                    <li>📸 Loves photography</li>
+                </ul>
+            </section>
+        </main>
         </div>
-
-        <!-- About Me Section -->
-        <section id="about" class="m-5">
-            <h2 class="text-center mb-4">About Me</h2>
-            <p class="text-center">Hi, I'm Mandeep Kumar Salhan, a passionate front-end developer with experience in React, JavaScript, and UI/UX design. I am always eager to learn new technologies and solve challenging problems. I'm open to freelance work and full-time opportunities. Let's connect!</p>
-        </section>
     </div>
     <footer><p>&copy; 2025</p></footer>
+    <script>
+    document.getElementById("sidebarToggle").addEventListener("click", function () {
+        document.getElementById("sidebar").classList.toggle("show");
+    });
+</script>
 </body>
 </html>
 <!-- Bootstrap JS & Popper.js (Optional for full functionality) -->
