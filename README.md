@@ -36,4 +36,4 @@ npm run start
 To contribute, fork the repository and create a pull request against this repository.
 
 ## Contact
-[LinkedIn] (https://www.linkedin.com/in/mandeep-salhan-194422357/)
+[LinkedIn](https://www.linkedin.com/in/mandeep-salhan-194422357/)
